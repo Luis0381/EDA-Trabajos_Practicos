@@ -1,27 +1,6 @@
 # Trabajo Practico Nº4 de Estructuras de Datos y Algoritmos
 
 ## 📚 Enunciado
-
-Considerando el ADT CLUB(SOCIO) definido con las siguientes operaciones:  
-  
-Sintaxis:  
-CLUBVACIO: -> CLUB  
-ALTASOCIO: CLUB x SOCIO -> CLUB  
-ESTAVACIO: CLUB -> BOOL  
-CANTIDAD: CLUB -> ent≥0  
-ESTA: CLUB x SOCIO -> BOOL  
-ULTIMOSOCIO: CLUB -> SOCIO U {indefinido}  
-  
-Semántica: Para todo C, D Є CLUB, s, t Є SOCIO   
-  
-ESTAVACIO(CLUBVACIO) ≡ TRUE  
-ESTAVACIO(ALTASOCIO(C, s)) ≡ FALSE  
-CANTIDAD(CLUBVACIO) ≡ 0  
-CANTIDAD(ALTASOCIO(C, s)) ≡ 1 + CANTIDAD(C)  
-ESTA(CLUBVACIO,s) ≡ FALSE  
-ESTA(ALTASOCIO(C, s),t) ≡ i=j OR ESTA(C,t)  
-ULTIMOSOCIO(CLUBVACIO) ≡ indefinido  
-ULTIMOSOCIO(ALTASOCIO(C, s)) ≡ s  
   
 1) Implemente en Java el ADT CLUB(SOCIO) usando lista simplemente enlazada. SOCIO debe identificarse con un entero. La implementación de la operación ESTA debe ser recursiva.  
   
