@@ -8,31 +8,31 @@ enlazada. Los nodos de la lista deberán contener números enteros.
 1) Escriba una clase NODO y una clase LISTA que implemente esta lista enlazada de
 números enteros y que tenga los siguientes métodos públicos:  
   
-• Static Lista crearLista() :  
+- Static Lista crearLista() :  
 Instancia y devuelve una lista vacía  
-• Boolean esVacia()  
+- Boolean esVacia()  
 Comprueba si la lista está vacía  
-• void insertarAlInicio(int x)  
+- void insertarAlInicio(int x)  
 Inserta un nodo al comienzo de la lista  
-• void insertarAlFinal(int x)  
+- void insertarAlFinal(int x)  
 Inserta un nodo al final de la lista  
-• void mostrar()  
+- void mostrar()  
 Recorre los nodos de la Lista y muestra su contenido por pantalla  
-• int cantidad()  
+- int cantidad()  
 Devuelve la cantidad de nodos de una lista  
-• void borrarPrimero()  
+- void borrarPrimero()  
 Elimina el primer nodo de la lista  
-• void borrarUltimo()  
+- void borrarUltimo()  
 Elimina el último nodo de la lista  
-• void borrarConValor(int buscado)  
+- void borrarConValor(int buscado)  
 Elimina todos los nodos que lo contengan el valor igual a x  
-• void borrarEnPosicion(int posicion)  
+- void borrarEnPosicion(int posicion)  
 Eliminar el nodo de la posición posicion  
-• int dameValorEnPosicion(int posicion)  
+- int dameValorEnPosicion(int posicion)  
 Devuelve el contenido del nodo en la posición posicion  
-• void modificarValorEnPosicion(int valor, int posicion)  
+- void modificarValorEnPosicion(int valor, int posicion)  
 Modificar el contenido del nodo de la posición posicion  
-• void insertarEnPosicion(int valor, int posicion)  
+- void insertarEnPosicion(int valor, int posicion)  
 Inserta un nodo en la posición posicion con valor valor  
   
 Escriba un programa o clase de prueba para declarar objetos de la clase LISTA. El
