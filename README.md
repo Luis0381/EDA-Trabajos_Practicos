@@ -1,10 +1,13 @@
-# Trabajo Practico Nº7 de Estructuras de Datos y Algoritmos
+# Trabajo Practico Nº8 de Estructuras de Datos y Algoritmos
 
 ## 📚 Enunciado
 
-Escriba un algoritmo en términos de las operaciones del ADT LISTA CIRCULAR para simular el problema de Josefo, tal que reciba dos números N y K representando respectivamente un número de rebeldes cercados, supuestamente numerados de 1 a N, y de cuanto en cuanto estos rebeldes se matan (empezando por la primera posición y en el sentido de las agujas del reloj). Por ejemplo, en el problema original N=41 y K=3.  
-La salida del algoritmo debe contener el listado de las posiciones de los rebeldes que van desapareciendo y finalmente las posiciones de los últimos dos sobrevivientes.  
-¿Cuál es el costo del algoritmo usando notación O grande?  
+1. Escriba una implementación del ADT ARBOL BINARIO.
+2. Utilizando las operaciones del ADT ARBOL BINARIO escriba un algoritmo que reciba una
+cadena en Código Morse y un árbol binario (que tenga almacenada la codificación de
+todos los símbolos), obtenga su traducción, mostrando por pantalla su significado.
+3. Utilizando el ADT implementado, genere el árbol de códigos Morse e
+implemente el algoritmo del punto anterior.
   
 ## Construido con 🛠️
 
