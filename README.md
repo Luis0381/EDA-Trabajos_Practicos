@@ -1,12 +1,10 @@
-# Trabajo Practico Nº6 de Estructuras de Datos y Algoritmos
+# Trabajo Practico Nº7 de Estructuras de Datos y Algoritmos
 
 ## 📚 Enunciado
 
-1) Implemente en Java el ADT Fila visto en clase, donde ITEM tiene dos atributos: número y nombre.
-Todas las operaciones debe tener costo O(1)
-2) Agregue la operación Longitud. ¿hay una forma de implementarla con costo O(1) ?
-3) Agregue las operaciones IGUALF, CONCAT e INVERTIR como parte del ADT Fila.
-4) Implemente como usuario las operaciones IGUALF, CONCAT e INVERTIR,
+1) Escriba un algoritmo en términos de las operaciones del ADT LISTA CIRCULAR para simular el problema de Josefo, tal que reciba dos números N y K representando respectivamente un número de rebeldes cercados, supuestamente numerados de 1 a N, y de cuanto en cuanto estos rebeldes se matan (empezando por la primera posición y en el sentido de las agujas del reloj). Por ejemplo, en el problema original N=41 y K=3.  
+La salida del algoritmo debe contener el listado de las posiciones de los rebeldes que van desapareciendo y finalmente las posiciones de los últimos dos sobrevivientes.  
+¿Cuál es el costo del algoritmo usando notación O grande?  
   
 ## Construido con 🛠️
 

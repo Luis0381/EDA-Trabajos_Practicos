@@ -9,12 +9,10 @@
  */
 public class Item {
     private int numero;
-    private String nombre;
 
     // CONSTRUCTOR
-    public Item(int numero, String nombre) {
+    public Item(int numero) {
         this.numero = numero;
-        this.nombre = nombre;
     }
     
     // GETTERS & SETTERS
@@ -24,13 +22,5 @@ public class Item {
 
     public void setNumero(int numero) {
         this.numero = numero;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
     }
 }
