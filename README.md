@@ -1,9 +1,12 @@
-# Trabajo Practico Nº5 de Estructuras de Datos y Algoritmos
+# Trabajo Practico Nº6 de Estructuras de Datos y Algoritmos
 
 ## 📚 Enunciado
 
-Escriba una implementación en Java del ADT PILA de caracteres con lista simplemente enlazada.
-Pruebe todas las operaciones de la Pila.
+1) Implemente en Java el ADT Fila visto en clase, donde ITEM tiene dos atributos: número y nombre.
+Todas las operaciones debe tener costo O(1)
+2) Agregue la operación Longitud. ¿hay una forma de implementarla con costo O(1) ?
+3) Agregue las operaciones IGUALF, CONCAT e INVERTIR como parte del ADT Fila.
+4) Implemente como usuario las operaciones IGUALF, CONCAT e INVERTIR,
   
 ## Construido con 🛠️
 

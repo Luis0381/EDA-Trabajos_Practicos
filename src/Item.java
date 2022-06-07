@@ -5,20 +5,32 @@
 
 /**
  *
- * @author Luis Medina Raed
+ * @author Medina Raed, Luis Eugenio
  */
 public class Item {
-    int numero;
+    private int numero;
+    private String nombre;
 
-    public Item(int numero) {
+    // CONSTRUCTOR
+    public Item(int numero, String nombre) {
         this.numero = numero;
+        this.nombre = nombre;
     }
-
+    
+    // GETTERS & SETTERS
     public int getNumero() {
         return numero;
     }
 
     public void setNumero(int numero) {
         this.numero = numero;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 }
